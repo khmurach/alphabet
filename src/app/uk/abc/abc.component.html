@@ -1,1 +1,9 @@
-<p-card>uk abc works!</p-card>
+<p-card>
+  <p-carousel [value]="items" [circular]="true">
+    <ng-template let-item pTemplate="item">
+      <div class="flex justify-content-center align-content-center">
+        <div class="text-8xl p-8">{{ item.content }}</div>
+      </div>
+    </ng-template>
+  </p-carousel>
+</p-card>
