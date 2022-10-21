@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Carousel } from 'primeng/carousel';
 
 @Component({
   selector: 'app-root',
@@ -8,8 +7,4 @@ import { Carousel } from 'primeng/carousel';
 })
 export class AppComponent {
   title = 'alphabet';
-
-  constructor() {
-    Carousel.prototype.onTouchMove = () => {};
-  }
 }
