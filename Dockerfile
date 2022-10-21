@@ -9,6 +9,6 @@ RUN npm run build --prod
 ### Stage 2: Run
 FROM nginx:alpine
 COPY nginx.conf /etc/nginx/nginx.conf
-COPY --from=build /app/dist/hello-docker-angular /usr/share/nginx/html
+COPY --from=build /app/dist/alphabet /usr/share/nginx/html
 EXPOSE 8080
 CMD ["nginx", "-g", "daemon off;"]

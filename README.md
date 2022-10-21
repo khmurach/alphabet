@@ -10,4 +10,4 @@ Use `npm run docker-build` to build the image.
 
 Use `npm run docker-test` to run the image in local docker.
 
-Use `npm run docker-push` to publish the image to DockerHub.
+Use `npm run docker-push` to publish the image to DockerHub. Do not forget ro run `docker login` if needed.
