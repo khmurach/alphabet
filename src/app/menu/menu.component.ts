@@ -12,15 +12,22 @@ export class MenuComponent implements OnInit {
   constructor() {
     this.items = [
       {
+        label: 'ABC',
+        routerLink: [''],
+      },
+      {
         label: 'Українська',
         items: [
-          { label: 'Абетка відсотрована' },
-          { label: 'Абетка перемішана' },
+          { label: 'Абетка відсотрована', routerLink: ['uk/abc'] },
+          { label: 'Абетка перемішана', routerLink: ['uk/abc-random'] },
         ],
       },
       {
         label: 'English',
-        items: [{ label: 'ABC Sorted' }, { label: 'ABC Random' }],
+        items: [
+          { label: 'ABC Sorted', routerLink: ['en/abc'] },
+          { label: 'ABC Random', routerLink: ['en/abc-random'] },
+        ],
       },
     ];
   }
