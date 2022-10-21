@@ -12,7 +12,6 @@ export class UkAbcComponent implements OnInit {
 
   constructor(abc: AbcService) {
     this.items = abc.getAbc('uk').map((x, i) => ({ content: x, position: i }));
-    console.log(this.items);
   }
 
   ngOnInit(): void {}

@@ -20,6 +20,8 @@ export class MenuComponent implements OnInit {
         items: [
           { label: 'Абетка відсотрована', routerLink: ['uk/abc'] },
           { label: 'Абетка перемішана', routerLink: ['uk/abc-random'] },
+          { label: 'Склади відсотровані', routerLink: ['uk/syllables'] },
+          { label: 'Склади перемішані', routerLink: ['uk/syllables-random'] },
         ],
       },
       {

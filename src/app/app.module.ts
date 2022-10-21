@@ -13,6 +13,8 @@ import { UkAbcComponent } from './uk/abc/abc.component';
 import { EnAbcComponent } from './en/abc/abc.component';
 import { UkAbcRandomComponent } from './uk/abc.random/abc.random.component';
 import { EnAbcRandomComponent } from './en/abc.random/abc.random.component';
+import { UkSyllablesComponent } from './uk/syllables/syllables.component';
+import { UkSyllablesRandomComponent } from './uk/syllables.random/syllables.random.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { EnAbcRandomComponent } from './en/abc.random/abc.random.component';
     HomeComponent,
     UkAbcRandomComponent,
     EnAbcRandomComponent,
+    UkSyllablesComponent,
+    UkSyllablesRandomComponent,
   ],
   imports: [
     BrowserModule,
