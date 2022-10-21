@@ -1,7 +1,7 @@
-<p-card>
+<p-card header="ABC Sorted">
   <p-carousel [value]="items" [circular]="true" [showIndicators]="false" [showNavigators]="false">
     <ng-template let-item pTemplate="item">
-      <div class="flex justify-content-center align-content-center pt-6 pb-6">
+      <div class="flex justify-content-center align-content-center pt-6 pb-6 unselectable">
         <div class="text-8xl">{{ item.content }}</div>
       </div>
     </ng-template>

@@ -19,9 +19,9 @@ export class MenuComponent implements OnInit {
         label: 'Українська',
         items: [
           { label: 'Абетка відсотрована', routerLink: ['uk/abc'] },
-          { label: 'Абетка перемішана', routerLink: ['uk/abc-random'] },
+          { label: 'Абетка мікс', routerLink: ['uk/abc-random'] },
           { label: 'Склади відсотровані', routerLink: ['uk/syllables'] },
-          { label: 'Склади перемішані', routerLink: ['uk/syllables-random'] },
+          { label: 'Склади мікс', routerLink: ['uk/syllables-random'] },
         ],
       },
       {
