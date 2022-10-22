@@ -1,23 +1,4 @@
 <p-card header="Склади відсотровані">
   <app-slider [items]="selected"></app-slider>
 </p-card>
-
-<p-panel
-  header="Filters"
-  [toggleable]="true"
-  [collapsed]="true"
-  styleClass="mt-1"
->
-  <div class="grid">
-    <div *ngFor="let item of filters" class="field-checkbox {{ item.class }}">
-      <p-checkbox
-        name="filters"
-        value="category.content"
-        [value]="item"
-        [(ngModel)]="selectedFilters"
-        (onChange)="onFilterChange(item)"
-      ></p-checkbox>
-      <label [for]="item">{{ item.content }}</label>
-    </div>
-  </div>
-</p-panel>
+<app-syllables-settings [items]="items" (change)="onFilterChange($event)"></app-syllables-settings>

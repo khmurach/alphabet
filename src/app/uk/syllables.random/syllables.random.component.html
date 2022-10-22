@@ -1,3 +1,4 @@
 <p-card header="Склади мікс">
-  <app-slider [items]="items"></app-slider>
+  <app-slider [items]="selected"></app-slider>
 </p-card>
+<app-syllables-settings [items]="items" (change)="onFilterChange($event)"></app-syllables-settings>

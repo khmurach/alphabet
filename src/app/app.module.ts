@@ -20,6 +20,7 @@ import { UkSyllablesComponent } from './uk/syllables/syllables.component';
 import { UkSyllablesRandomComponent } from './uk/syllables.random/syllables.random.component';
 import { SliderComponent } from './slider/slider.component';
 import { FormsModule } from '@angular/forms';
+import { SyllablesSettingsComponent } from './uk/syllables.settings/syllables.settings.component';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FormsModule } from '@angular/forms';
     UkSyllablesComponent,
     UkSyllablesRandomComponent,
     SliderComponent,
+    SyllablesSettingsComponent,
   ],
   imports: [
     BrowserModule,
